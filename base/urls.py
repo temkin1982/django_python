@@ -17,8 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('', include('shop.urls')),
     path('admin/', admin.site.urls),
         # /admin/ login/?next=/admin/  
-    path('shop', include('shop.urls'))
+                # or
+            #   /admin/password_change/
+    path('shop/', include('shop.urls')),
     #    /shop/, shtop.urls = dir/file
+    path('api/', include('api.urls')),
+
 ]

@@ -1,0 +1,58 @@
+############################
+# Python / Django
+############################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+
+# Django secrets
+.env
+.env.*
+*.env
+
+# Django media/static (если временные)
+media/
+staticfiles/
+static/
+images/
+
+# Django migrations cache
+**/migrations/__pycache__/
+**/__pycache__/
+
+############################
+# Virtual Environment
+############################
+
+.venv/
+venv/
+env/
+
+############################
+# macOS / System
+############################
+
+.DS_Store
+__MACOSX/
+
+############################
+# IDE / Editor
+############################
+
+.vscode/
+.idea/
+*.swp
+
+############################
+# Docker (если используешь)
+############################
+
+.dockerignore
+docker-volume/

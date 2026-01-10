@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "90b269ebab7f44e317681ae626a608fdebe3a118325f5cd86ce978b2baec0ed5"
+            "sha256": "bcada267925bf1e917d1180f8b0d0bb25dafd33165eb81e72987d40f0b1f68c8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -78,6 +78,13 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==4.0.8"
+        },
+        "django-tastypie": {
+            "hashes": [
+                "sha256:1eb41318b08c0ebc9b8a386871b45401a623e6a5566bf32ae3e17be2c59318b7"
+            ],
+            "index": "pypi",
+            "version": "==0.15.1"
         },
         "flask": {
             "hashes": [
@@ -348,6 +355,30 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==2.9.10"
+        },
+        "python-dateutil": {
+            "hashes": [
+                "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3",
+                "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "version": "==2.9.0.post0"
+        },
+        "python-mimeparse": {
+            "hashes": [
+                "sha256:574062a06f2e1d416535c8d3b83ccc6ebe95941e74e2c5939fc010a12e37cc09",
+                "sha256:5b9a9dcf7aa82465e31bd667f5cb7000604811dce83554f1c8a43693a32cb303"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.0.0"
+        },
+        "six": {
+            "hashes": [
+                "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+                "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "version": "==1.17.0"
         },
         "sqlalchemy": {
             "hashes": [
